@@ -21,14 +21,14 @@ Ex:
 # How to run the image
 
 ## Environment Variables
-* GITHUB_REPO: Repository url where the action will be configured.
-* GITHUB_ACTION_TOKEN: Given token by the github action setting.
+* **GITHUB_REPO:** Repository url where the action will be configured.
+* **GITHUB_ACTION_TOKEN:** Given token by the github action setting.
   
 ## Docker run
-    `docker run -e GITHUB_REPO=https://github.com/Pitafoo/strapi-backend -e GITHUB_ACTION_TOKEN=AIIPH4WNF65BIANES3MRCA27KSF3G github-runner:2.273.0 `
+    docker run -e GITHUB_REPO=https://github.com/Pitafoo/strapi-backend -e GITHUB_ACTION_TOKEN=AIIPH4WNF65BIANES3MRCA27KSF3G github-runner:2.273.0
 
 ## Docker compose
-    `docker-compose up -d`
+    docker-compose up -d
 
 
 # Reference
