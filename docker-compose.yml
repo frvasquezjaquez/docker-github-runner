@@ -1,0 +1,7 @@
+version: '3.0'
+services:
+  github-runner:
+    image: github-runner:2.273.0
+    environment:
+      GITHUB_REPO: "Repository URL"
+      GITHUB_ACTION_TOKEN: "Github Action Token"
